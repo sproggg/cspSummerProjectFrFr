@@ -1,0 +1,164 @@
+/* LANDING PAGE CSS */
+    
+html{
+    max-width: 100%;
+}
+
+
+body{
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    overflow-x: hidden;
+    /* gotta fix this at some point in time but i'm lowkey extremely lazy so not now*/
+    height: 100%;
+}
+
+    .header{
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        height: 8vh;
+        position: fixed;
+        /*
+        border: 8px;
+        border-color: black;
+        border-style: double;
+        background-image: linear-gradient(to top right, #03030B, #2434F2);
+        */
+        background-color: #8D9B6A;
+        border-bottom: 4px;
+        border-color: #646e4b;
+        border-style: solid;
+    }
+
+        .headerLeft{
+            display: flex;
+            width: 50%;
+            padding-left: 12px;
+            /* REMINDER to remove all borders when testing is complete
+            border: 4px;
+            border-style:dashed;
+            border-color: red;
+            Maybe not remove, just hide in comments or smth*/
+            align-self: flex-start;
+        
+        }
+
+        .headerRight{
+            display: flex;
+            width: 50%;
+            align-self: flex-end;
+            /*border: 4px;
+            border-style: dashed;
+            border-color: blue;
+            */
+            justify-content: flex-end;
+            padding-right: 12px;
+            gap: 5%;
+            
+        }
+
+    .MidContent{
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        height: 100vh;
+        
+        border: 4px;
+        border-style: double;
+        border-color: green;
+        
+        background-color: #E8DFE0;
+    }
+
+        .contentLeft{
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+            align-items: flex-start;
+            height: 100%;
+            width: 50%;
+            padding-left: 5%;
+            /*
+            border: 4px;
+            border-style: dashed;
+            border-color: orange
+            */
+        }
+        
+        
+            .whiteSpace{
+                display: flex;
+                align-self: flex-start;
+                height: 40%;
+            }
+            .CLMain{
+                display: flex;
+                font-size: 36px;
+                word-spacing: 10px;
+                /*
+                border: 4px;
+                border-style: dashed;
+                border-color: orange;
+                */
+                height: 55%;
+            }
+
+            .CLSecondary{
+                display: flex;
+                font-size: 24px;
+                /*
+                border: 4px;
+                border-style: dashed;
+                border-color: black;
+                */
+            }
+            
+            .openAppButton{
+                display: flex;
+                padding-left: 8px;
+            }
+
+            .appInventorLinkButton{
+                display: flex;
+                background-color: #8D9B6A;
+                border: 2px solid #422800;
+                border-radius: 30px;
+                box-shadow: #422800 4px 4px 0 0;
+                color: #422800;
+                cursor: pointer;
+                font-weight: 600;
+                font-size: 18px;
+                padding: 0 18px;
+                line-height: 50px;
+                text-align: center;
+            }
+            
+
+        .contentRight{
+            display: flex; 
+            height: 100%;
+            width: 50%;
+            border: 4px;
+            /*
+            border-style: dashed;
+            border-color: pink;
+            */
+
+
+        }
+
+
+   
+
+    .bottomScreenContent1{
+        display: flex;
+        border-style: dashed;
+        border-color: pink;
+        height: 80vh;
+        width: 100%;
+    }
+
+    
+   
