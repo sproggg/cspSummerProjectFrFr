@@ -154,11 +154,162 @@ body{
 
     .bottomScreenContent1{
         display: flex;
+        flex-direction: column;
         border-style: dashed;
         border-color: pink;
-        height: 80vh;
+        height: 90vh;
         width: 100%;
+        border: 8px;
+        border-style: double;
+        border-color: plum;
     }
 
-    
+        .bottomTopSpace{
+            display: flex;
+            width: 100%;
+            height: 10vh;
+            border: 8px;
+            border-style: dashed;
+            border-color:rgb(9, 131, 70);
+        }
    
+        .bottom1Header{
+            display: flex;
+            flex-direction: column;
+            margin-left: 10vh;
+            height: 16vh;
+            /*
+                border-left: 8px;
+                border-right: 0px;
+                border-top: 0px;
+                border-bottom: 0px;
+                border-style: solid;
+                border-color: #8A9EA7;
+                padding-left: 16px;  */
+                border: 8px;
+                border-color: orange;
+                border-style: dashed;
+        }
+
+            .bottom1HeaderTop{
+                display: flex;
+                font-size: 36px;
+                height: 50%;
+                border: 8px;
+                border-style: dashed;
+                border-color: goldenrod;
+                
+            }
+
+            .bottom1HeaderBottom{
+                display: flex;
+                padding-top: -5%;
+            }
+
+        .bottom1Content{
+            display: flex;
+            height: 85vh;
+            align-self: center;
+            width: 90%;
+            border: 8px;
+            border-style:ridge;
+            border-color: lightsalmon;
+        }
+        
+            .bottom1ContentLeft{
+                display: flex;
+                border: 8px;
+                border-color: red;
+                border-style: dashed;
+                width: 45%;
+                flex-direction: column;
+            }
+
+                .bottomContentLeftHeader{
+                    display: flex;
+                    border: 8px;
+                    border-color: black;
+                    border-style: dashed;
+                    height: 20%;
+                    width: 100%;
+                }
+
+                .bottomContentLeftDescription{
+                    display: flex;
+                    border: 8px;
+                    border-color: gray;
+                    border-style: dashed;
+                    height: 20%;
+                    width: 100%;
+                }
+
+                .bottomContentLeftList{
+                    display: flex;
+                    border: 8px;
+                    border-color: deepskyblue;
+                    border-style: dashed;
+                    height: 50%;
+                    width: 100%;
+                }
+                
+                .bottomContentLeftLink{
+                    display: flex;
+                    border: 8px;
+                    border-color: rgb(34, 78, 95);
+                    border-style: dashed;
+                    height: 10%;
+                    width: 100%;
+                }
+
+            .bottom1ContentMiddle{
+                display: flex;
+                border: 8px;
+                border-style: dashed;
+                border-color: yellowgreen;
+                width: 10%;
+
+            }
+
+            .bottom1ContentRight{
+                display: flex;
+                flex-direction: column;
+                border: 8px;
+                border-style: dashed;
+                border-color: blueviolet;
+                width: 45%;
+            }
+                .bottomContentRightHeader{
+                    display: flex;
+                    border: 8px;
+                    border-color: black;
+                    border-style: dashed;
+                    height: 20%;
+                    width: 100%;
+                }
+
+                .bottomContentRightDescription{
+                    display: flex;
+                    border: 8px;
+                    border-color: gray;
+                    border-style: dashed;
+                    height: 20%;
+                    width: 100%;
+                }
+
+                .bottomContentRightList{
+                    display: flex;
+                    border: 8px;
+                    border-color: deepskyblue;
+                    border-style: dashed;
+                    height: 50%;
+                    width: 100%;
+                }
+                
+                .bottomContentRightLink{
+                    display: flex;
+                    border: 8px;
+                    border-color: rgb(34, 78, 95);
+                    border-style: dashed;
+                    height: 10%;
+                    width: 100%;
+                }
